@@ -14,6 +14,7 @@
   "author": "Raul Jimenez <elecash@gmail.com> (http://twofuckingedevelopers.com/)",
   "license": "MIT",
   "dependencies": {
+    "@ngrx/store": "^1.2.1",
     "angular2": "2.0.0-beta.1",
     "es6-promise": "3.0.2",
     "es6-shim": "0.34.1",
