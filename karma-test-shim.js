@@ -15,7 +15,7 @@ System.config({
             map: Object.keys(window.__karma__.files).filter(onlyAppFiles).reduce(createPathRecords, {})
         }
     },
-    paths: { '@ngrx/store' : 'node_modules/@ngrx/store/dist/store.js' }
+    paths: { '@ngrx/store' : '/base/dist/store.js' }
 });
 
 System.import('angular2/src/platform/browser/browser_adapter')
